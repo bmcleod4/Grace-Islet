@@ -1,0 +1,361 @@
+<tw-storydata name="The Life of Sarry Blawsky" startnode="1" creator="Twine" creator-version="2.0.11" ifid="3ED2AFEB-968B-49A6-BE92-5734F7148183" format="Harlowe" options="" hidden><style role="stylesheet" id="twine-user-stylesheet" type="text/twine-css">body
+{
+  background-color: #182875;
+}
+tw-passage
+{
+	color: #ED8603;
+}
+
+}
+tw-link
+{
+  color: #00FFE8;
+}
+</style><script role="script" id="twine-user-script" type="text/twine-javascript"></script><tw-passagedata pid="1" name="Live Again?" tags="" position="610,38">&lt;h3&gt;The Life of Sarry Blawsky&lt;/h3&gt;
+
+Welcome to the wonderful country of Adan&#39;Ak. You are Sarry Blawsky, 57, owner of a moderately successful headlight fluid business located in the bustling capital of the landlocked state of Cowberta. Having dedicated most of your life to the production and enhancement of headlight fluid technology, you find yourself thinking of a serene retirement on the coast of the eastern state, Besalish Colombusia (or B.C. for short), even though you have never visited the area and know nothing of local customs.
+
+This is your wallet: $$$$$
+
+What do you do?
+	
+	[[Begin to look for a retirement home.]]
+	
+	[[Call mom and ask to move in with her after you retire.]]
+	
+	[[Screw it, I&#39;ll work until the day I die.]]</tw-passagedata>
+<tw-passagedata pid="2" name="Screw it, I&#39;ll work until the day I die." tags="" position="812,95">
+
+Your old bones begin to ache. You lust for the salty air on the coast of Besalish Colombusia. Your knees creak with each of the eleven steps between your desk and private elevator. Maybe it&#39;s time to retire. Gain $.
+
+[[Begin to look for a retirement home.]]
+
+[[Keep working. Maybe future medicine can fix your ailing body.]]
+
+Wallet: $$$$$$</tw-passagedata>
+<tw-passagedata pid="3" name="Begin to look for a retirement home." tags="" position="588,297">
+
+You start making your preparations. Deciding that no existing home can properly make the statement of wealth that your accomplishments embody, you contact the best realtors in Besalish Columbusia. They bombard you with potential residentially zoned properties ready for development.
+	
+[[View a list of potential properties.]]
+ 
+(if: (history:)contains &quot;What can they do? You have all the controlling shares. Stick with it.&quot;)[&lt;strike&gt;[[Screw it, I&#39;ll work until the day I die.]]&lt;/strike&gt;
+&lt;strong&gt;NO. YOU HAD YOUR CHANCE TO WORK FOREVER. ENJOY RETIREMENT.&lt;/strong&gt;](else:)[[[Screw it, I&#39;ll work until the day I die.]]]
+
+(if: (history:) contains &quot;Screw it, I&#39;ll work until the day I die.&quot;)[Wallet: $$$$$$](else:)[Wallet: $$$$$]</tw-passagedata>
+<tw-passagedata pid="4" name="Call mom and ask to move in with her after you retire." tags="" position="361,113">
+
+She picks up on the fifth ring. She laughs when you ask her, and tears well up in your eyes. She says having you around would interfere with her weekly baked sale. You ask if she meant bake sale. She says no, and you hear a receiver  click as the line disconnects.
+	
+	[[Screw it, I&#39;ll work until the day I die.]] 
+	
+	[[Begin to look for a retirement home.]] 
+	
+Wallet: $$$$$</tw-passagedata>
+<tw-passagedata pid="5" name="Keep working. Maybe future medicine can fix your ailing body." tags="" position="812,242">
+
+Your secretary took the liberty of installing a robotic chair that carries you from your elevator to your desk. As your mind begins to fade in and out with each passing day, your business decisions become less and less sound. Your company&#39;s stock plummets, and you begin to receive numerous lawsuits for selling shoddily made and malfunctioning units of headlight fluid. You fall into a deep depression as the board of directors starts to throw you weekly retirement parties, despite your insistance on staying with the company.
+	
+	[[What can they do? You have all the controlling shares. Stick with it.]]
+	
+	[[Begin to look for a retirement home.]] 
+	
+Wallet: $$$$$$</tw-passagedata>
+<tw-passagedata pid="6" name="What can they do? You have all the controlling shares. Stick with it." tags="" position="812,392">
+
+Your liquor cabinet begins to empty. You hardly go into the office anymore. Your wife, who left you long before you began to thing of retirement, is the only parental figure in your children&#39;s lives. There are whispers that the board is looking to perform a hostile takeover, and are willing to play dirty. You don&#39;t trust anyone anymore. You don&#39;t take visitors, and when you do go into the office, you can feel the eyes of your former admirering employees as boisterous conversations fall to hushed whispers and sideways glances. 
+	
+	[[Fire the first person that gets in your way as you travel to your elevator. They were being insubbordinate.]]
+	
+	[[Last Chance. &lt;strong&gt;LOOK FOR A RETIREMENT HOME&lt;/strong&gt;-&gt;Begin to look for a retirement home.]] 
+	
+Wallet: $$$$$$</tw-passagedata>
+<tw-passagedata pid="7" name="Fire the first person that gets in your way as you travel to your elevator. They were being insubbordinate." tags="" position="814,542">
+
+You find a wrongful dismissal lawsuit on your desk in the morning. Well, in the afternoon. It now takes you most of the morning to make it to your desk. You&#39;ve completely abandonded the thought of retirement. While helping you read your mail because of your failing vision, your secretary attempts to please you by complimenting your nice golden tan. Lose $.
+	
+	[[Pfft. You haven&#39;t been outisde in weeks. What tan.]]
+	
+	[[Fire her too. She&#39;s obviously plotting something.]]
+	
+(if: (history:)contains&quot;Hold out and continue construction slowly. Maybe you can make some real money out of these guys. After all, you are the one suffering in this situation.&quot;)[Wallet: $$$$$$$$$$$$$$$](else:)[Walet: $$$$$$]</tw-passagedata>
+<tw-passagedata pid="8" name="Pfft. You haven&#39;t been outisde in weeks. What tan." tags="" position="809,758">
+
+Liver cancer. Stage 4. Your golden tan was actually advanced stages of jaundice. The doctors say there&#39;s no hope for recovery, and your age disqualifies you from the possibility of a transplant. Your mother invites you to one of her baked sales, and says it will help. You don&#39;t see how. You fall from the chair on your way to your desk the next day. You wake up in pain in a private room at the hospital. Doctors stick you with needles daily. Each beep of the thirteen machines they have you plugged into wracks your head with a throbbing pain. The nurse tells yo that your medication is already maxed out. You feel the life leaking from your body.
+	
+	[[Embrace death. You&#39;ve lived enough.]]
+	
+	[[Fight it. You have so much to live for.]]
+	
+(if: (history:)contains&quot;Hold out and continue construction slowly. Maybe you can make some real money out of these guys. After all, you are the one suffering in this situation.&quot;)[Wallet: $$$$$$$$$$$$$$$ (But does it even matter at this point?)](else:)[Walet: $$$$$$ (But does it even matter at this point?)]</tw-passagedata>
+<tw-passagedata pid="9" name="Fire her too. She&#39;s obviously plotting something." tags="" position="962,692">
+
+That&#39;s it. You&#39;ve done it. You turned away the last person who was willing to see the good in you. You&#39;re now truly alone. The world seems darker, and you find yourself thinking of the salty air on the coast of Besalish Colombusia. Only a dream now. You find another wrongful dismissal lawsuit on your desk the next afternoon, alongside the resignation letters of your entire legal department. 
+
+Lose $.
+	
+	[[Take a walk in the city. It will help clear your mind]]
+	
+	[[Turn away and go home. You&#39;ve caused enough pain.]] 
+
+(if: (history:)contains&quot;Hold out and continue construction slowly. Maybe you can make some real money out of these guys. After all, you are the one suffering in this situation.&quot;)[Wallet: $$$$$$$$$$$$$$](else:)[Walet: $$$$$]</tw-passagedata>
+<tw-passagedata pid="10" name="Take a walk in the city. It will help clear your mind" tags="" position="1091,842">
+
+The cold air burns as you breath. The birds are quiet, and the cars whir by as blurs to your old eyes. You make out a figure that looks like your old secretary, and catch a whif of her old perfume on the breeze.
+
+[[Go to her. Ask her to come back.]]
+
+[[Turn away and go home. You&#39;ve caused enough pain.]]
+
+(if: (history:)contains&quot;Hold out and continue construction slowly. Maybe you can make some real money out of these guys. After all, you are the one suffering in this situation.&quot;)[Wallet: $$$$$$$$$$$$$$](else:)[Walet: $$$$$]</tw-passagedata>
+<tw-passagedata pid="11" name="Embrace death. You&#39;ve lived enough." tags="" position="745,978">
+
+
+Darkness takes you. Nobody is there to hear your last breath. You die alone.
+	
+[[Live Again?]] 
+	
+^^*Note: Any similarities to real world people or events depicted in this game is exhaggerated or satirical in nature, and should be treated as such*^^</tw-passagedata>
+<tw-passagedata pid="12" name="Fight it. You have so much to live for." tags="" position="937,842">
+
+Some decisions are not yours to make.
+	
+[[Embrace death. You&#39;ve lived enough.]] 
+</tw-passagedata>
+<tw-passagedata pid="13" name="Go to her. Ask her to come back." tags="" position="1122,1082">
+
+In your hurry to catch her, you mis-step as you make your way to the curb and begin to fall. You hear the loud screeching of tires and see two glowing yellow lights. Then nothing. You lie on your back as the cold air burns your lungs and you sputter to catch your breath. Everything is quiet.
+	
+	[[Embrace death. You&#39;ve lived enough.]] 
+	
+	[[Fight it. You have so much to live for.]] 
+
+(if: (history:)contains&quot;Hold out and continue construction slowly. Maybe you can make some real money out of these guys. After all, you are the one suffering in this situation.&quot;)[Wallet: $$$$$$$$$$$$$$ (But does it even matter anymore?)](else:)[Walet: $$$$$ (But does it even matter anymore?)]</tw-passagedata>
+<tw-passagedata pid="14" name="Turn away and go home. You&#39;ve caused enough pain." tags="" position="1396,875">
+
+Your house is empty. You fired your cleaning staff last month becuase you thought they were stealing priceless antiques from you (you actually broke these, but don&#39;t remember). Shards of broken glass litter your now empty house, waiting to be cleaned by someone who isn&#39;t going to come.
+	
+	[[Head downstairs and have a drink]]
+
+	[[Go to sleep. Tomorrow will be better.]]
+
+(if: (history:)contains&quot;Hold out and continue construction slowly. Maybe you can make some real money out of these guys. After all, you are the one suffering in this situation.&quot;)[Wallet: $$$$$$$$$$$$$$](else:)[Walet: $$$$$]</tw-passagedata>
+<tw-passagedata pid="15" name="Head downstairs and have a drink" tags="" position="1099,1276">
+
+You didn&#39;t see the empty bottle of scotch at the top of the stairs. You don&#39;t even remember drinking it. You feel yourself tumbling down, colliding with the banister and landing on your back in a pool of broken glass from the vase you broke during your last drunken escapade through your home. You can feel a damp warmth underneath you.
+	
+	[[Embrace death. You&#39;ve lived enough.]] 
+	
+	[[Fight it. You have so much to live for.]] 
+	
+(if: (history:)contains&quot;Hold out and continue construction slowly. Maybe you can make some real money out of these guys. After all, you are the one suffering in this situation.&quot;)[Wallet: $$$$$$$$$$$$$$ (But does it even matter anymore?)](else:)[Walet: $$$$$ (But does it even matter anymore?)]</tw-passagedata>
+<tw-passagedata pid="16" name="Go to sleep. Tomorrow will be better." tags="" position="1424,1099">
+
+The pain you&#39;ve been living with for so long wracks your body as you climb into bed. Your breath is laboured as you lay back in your silk sheets. The fire is burning next to you, but you feel cold gripping your very being. Your reading lamp at the bedside is shining brightly, but the world begins to darken. Your pain begins to ease, and you realize death is coming for you.
+	
+	[[Fight it. You have so much to live for.]] 
+
+	[[Embrace death. You&#39;ve lived enough.]] 
+
+(if: (history:)contains&quot;Hold out and continue construction slowly. Maybe you can make some real money out of these guys. After all, you are the one suffering in this situation.&quot;)[Wallet: $$$$$$$$$$$$$$ (But does it even matter anymore?)](else:)[Walet: $$$$$ (But does it even matter anymore?)]</tw-passagedata>
+<tw-passagedata pid="17" name="View a list of potential properties." tags="" position="581,428">
+
+
+[[A large plot of undeveloped land next to the local Christian Cemetery.]]
+&lt;center&gt;(if: (history:) contains &quot;A large plot of undeveloped land next to the local Christian Cemetery.&quot;)[^^It&#39;d probably be a waste to check this again.^^]&lt;/center&gt;
+
+[[A large property in a prestigious neighbourhood, but all six former inhabitants died in a mysterious fire that reduced the house to ashes.]]
+&lt;center&gt;(if: (history:) contains &quot;A large property in a prestigious neighbourhood, but all six former inhabitants died in a mysterious fire that reduced the house to ashes.&quot;)[^^It&#39;d probably be a waste to check this again.^^]&lt;/center&gt;
+
+[[A small island off the coast that would come with mainland parking and a dock to park a watercraft. Still sizeable enough to hold a large house.]]
+&lt;center&gt;(if: (history:) contains &quot;A small island off the coast that would come with mainland parking and a dock to park a watercraft. Still sizeable enough to hold a large house.&quot;)[^^Wait are you sure?^^]&lt;/center&gt;
+
+[[An undeveloped property downtown located next to a retirement home.]]
+&lt;center&gt;(if: (history:) contains &quot;An undeveloped property downtown located next to a retirement home.&quot;)[^^It&#39;d probably be a waste to check this again.^^]&lt;/center&gt;
+
+[[None of these are fit for your glorious home. -&gt;Screw it, I&#39;ll work until the day I die.]]
+&lt;center&gt;(if: (history:) contains &quot;Screw it, I&#39;ll work until the day I die.&quot;)[^^You&#39;re a stubborn old bastard, aren&#39;t you?^^]&lt;/center&gt;
+
+(if: (history:) contains &quot;Screw it, I&#39;ll work until the day I die.&quot;)[Wallet: $$$$$$](else:)[Wallet: $$$$$]</tw-passagedata>
+<tw-passagedata pid="18" name="A large plot of undeveloped land next to the local Christian Cemetery." tags="" position="301,530">
+
+The size is nice, but you don&#39;t like the idea of living next to all those dead bodies. Besides, construction might disturb some of the soil in the cemetery. Better to just leave places like that alone.
+
+[[Go back to property listings. -&gt;View a list of potential properties.]] 
+
+(if: (history:) contains &quot;Screw it, I&#39;ll work until the day I die.&quot;)[Wallet: $$$$$$](else:)[Wallet: $$$$$]</tw-passagedata>
+<tw-passagedata pid="19" name="A large property in a prestigious neighbourhood, but all six former inhabitants died in a mysterious fire that reduced the house to ashes." tags="" position="303,405">
+
+You think to yourself, &quot;Ugh, people actually died here? Gross. I don&#39;t want to be haunted. Besides, what if the person that set the fire came back?&quot;
+
+[[Go back to property listings. -&gt;View a list of potential properties.]] 
+
+(if: (history:) contains &quot;Screw it, I&#39;ll work until the day I die.&quot;)[Wallet: $$$$$$](else:)[Wallet: $$$$$]</tw-passagedata>
+<tw-passagedata pid="20" name="An undeveloped property downtown located next to a retirement home." tags="" position="300,655">
+
+Living next to a retirement community could be nice. Maybe one of the nice ladies will be your new mommy and love you like yours never did. Then she&#39;ll die. Like your mother refuses to do. The thought disturbs you, and you decide it&#39;s better to find a more secluded place to live.
+
+[[Go back to property listings. -&gt;View a list of potential properties.]] 
+
+(if: (history:) contains &quot;Screw it, I&#39;ll work until the day I die.&quot;)[Wallet: $$$$$$](else:)[Wallet: $$$$$]</tw-passagedata>
+<tw-passagedata pid="21" name="A small island off the coast that would come with mainland parking and a dock to park a watercraft. Still sizeable enough to hold a large house." tags="" position="611,570">
+
+As soon as you see the pictures of the property you start envisioning your retired life in Besalish Columbusia. Waking up to the coastal air every day, just a short boat ride to the market. Not for you of course, but for whoever you pay to buy your groceries and cook for you.
+
+[[Nah, this is to small for my &lt;strike&gt;-ego-&lt;/strike&gt; needs... I meant needs.-&gt;View a list of potential properties.]]
+
+[[This is &lt;strong&gt;PERFECT!&lt;/strong&gt; And the location is beautiful! Call the realtor and buy it!-&gt;Buying]] Costs: $$
+
+(if: (history:) contains &quot;Screw it, I&#39;ll work until the day I die.&quot;)[Wallet: $$$$$$](else:)[Wallet: $$$$$]</tw-passagedata>
+<tw-passagedata pid="22" name="Buying" tags="" position="611,720">
+
+You&#39;re extatic about your new property and can&#39;t wait to start construction on your dream retirement home. You receive a letter from the local Regal Adan&#39;ak Saddled Police (R.A.S.P. for short) department, which informs you that human remains have been found on your property by local surfers that frequent the waters off of coastal Besalish Colombusia.
+
+[[Don&#39;t worry about it and continue the planning stage of your construction. It&#39;s probably just animal remains or something unimportant.]]
+
+[[Call the R.A.S.P. back and follow up on the discovery.]]
+
+(if: (history:) contains &quot;Screw it, I&#39;ll work until the day I die.&quot;)[Wallet: $$$$](else:)[Wallet: $$$]</tw-passagedata>
+<tw-passagedata pid="23" name="Don&#39;t worry about it and continue the planning stage of your construction. It&#39;s probably just animal remains or something unimportant." tags="" position="570,969">
+
+You get another letter in Cowberta saying some no-name indigenous scholar Emric EcLay says your new retirement property is covered in burial stones and that human remains have definitely been found. Apparently he says that means your property is an ancestral burial ground in the local indigenous community.
+
+[[An ancestral burial ground is no place for a retirement home. You immediately agree to sell the property back to the state for the price you originally payed. That way the area can be protected from any future disturbance.]] Receive: $$
+
+[[Some expert, a few bones and a couple rocks doesn&#39;t mean this place is a burial ground.]] 
+
+(if: (history:) contains &quot;Screw it, I&#39;ll work until the day I die.&quot;)[Wallet: $$$$](else:)[Wallet: $$$]</tw-passagedata>
+<tw-passagedata pid="24" name="Call the R.A.S.P. back and follow up on the discovery." tags="" position="425,864">The R.A.S.P Officer you contact informs you the remains are likely ancestors of the local indigenous community, and that further analysis of your property is needed in order to determine if any other sets of remains or relevant features are present.
+
+[[Indigenous remains? That actually does sound serious. You decide to cooperate fully with the R.A.S.P. and archaeological investigation to determine if your new property has any cultural significance to the local indigenous community.]]
+
+[[What do you care about some dead person&#39;s remains from hundreds or thousand&#39;s of years ago? You were planning on putting a hot tub where those supposed remains were found.-&gt;Don&#39;t worry about it and continue the planning stage of your construction. It&#39;s probably just animal remains or something unimportant.]]
+
+(if: (history:) contains &quot;Screw it, I&#39;ll work until the day I die.&quot;)[Wallet: $$$$](else:)[Wallet: $$$]</tw-passagedata>
+<tw-passagedata pid="25" name="Indigenous remains? That actually does sound serious. You decide to cooperate fully with the R.A.S.P. and archaeological investigation to determine if your new property has any cultural significance to the local indigenous community." tags="" position="325,1015">
+
+During the investigation of your property (for which you flew all the way from Cowberta to attend), you meet local archaeologist and indigenous burial expert Emric EcLay, who has worked closely with local indigenous groups on similar projects. over the course of multiple investigations of your property, EcLay discovers almost twenty burial stones that correspond identically with other ancestral indigenous burials in the area. EcLay informs you that your property is almost definitely an ancestral burial ground and sacred place for the local indigenous people. 
+
+[[An ancestral burial ground is no place for a retirement home. You immediately agree to sell the property back to the state for the price you originally payed. That way the area can be protected from any future disturbance.]] Receive: $$
+
+[[Some expert, a few bones and a couple rocks doesn&#39;t mean this place is a burial ground.]]
+
+(if: (history:) contains &quot;Screw it, I&#39;ll work until the day I die.&quot;)[Wallet: $$$$](else:)[Wallet: $$$]</tw-passagedata>
+<tw-passagedata pid="26" name="An ancestral burial ground is no place for a retirement home. You immediately agree to sell the property back to the state for the price you originally payed. That way the area can be protected from any future disturbance." tags="" position="32,1178">
+
+The indigenous community in Besalish Colombusia is so grateful to you for returning their ancestral lands to the state. They have started lobbying for a change in the zoning of the property, and that the state make it a protected park under Besalish Colombusia&#39;s Heritage Conservancy Accord. A plaque with a picture of you and the local indigenous leaders smiling is erected in the town hall. (if: (history:) contains &quot;A large property in a prestigious neighbourhood, but all six former inhabitants died in a mysterious fire that reduced the house to ashes.&quot;)[You use the money you received from the state to purchace the property that was home to the family that died in the fire. You put a portion of the funds towards a small memorial in front your newly constructed home.](else:)[You use a different realtor and find another property nearby on the shore.] You remain a beloved member of the community and enjoy a long life of recreation and retirement in the beautiful community you now call home. (if: (history:) contains &quot;Call mom and ask to move in with her after you retire.&quot;)[Your mother comes to visit and you have baked sales with members of the community.] (if: (history:) contains &quot;Screw it, I&#39;ll work until the day I die.&quot;)[The bones that used to ache and cry out in pain seem to be looser, as if magically cured by the coastal air.](if: (history:) contains &quot;What can they do? You have all the controlling shares. Stick with it.&quot;)[Your ex-wife and children come to visit you on holidays, and you haven&#39;t touched the drink since coming to the community.] You live a longer and happier life than you ever could have imagined back in Cowberta, and after many happy years in Besalish Colombusia you peacefully pass away  surrounded by your many friends and family.
+
+(if: (history:) contains &quot;Beginning Construction.&quot;)[Wallet: $$$$$$](else:)[Wallet: $$$$]
+
+&lt;center&gt;&lt;em&gt;The End&lt;/em&gt;&lt;/center&gt;
+
+[[Live Again?]]
+
+^^*Note: Any similarities to real world people or events depicted in this game is exhaggerated or satirical in nature, and should be treated as such*^^</tw-passagedata>
+<tw-passagedata pid="27" name="Some expert, a few bones and a couple rocks doesn&#39;t mean this place is a burial ground." tags="" position="459,1147">
+
+You decide to go along with this farce of an investigation and hire some consultants to help you figure out how to still get your dream house. An outdoor pool next to the ocean is beginning to sound good.
+
+[[Hire a company that&#39;ll tell the R.A.S.P. and Besalish Colombusia&#39;s Archaeology Branch exactly what you want them to hear.]]
+
+[[Hire an impartial consultant that might actually explain the importance of your property to local indigenous peoples.]]
+
+(if: (history:) contains &quot;Screw it, I&#39;ll work until the day I die.&quot;)[Wallet: $$$$](else:)[Wallet: $$$]</tw-passagedata>
+<tw-passagedata pid="28" name="Hire a company that&#39;ll tell the R.A.S.P. and Besalish Colombusia&#39;s Archaeology Branch exactly what you want them to hear." tags="" position="569,1354">
+
+These guys are fantastic. They told the R.A.S.P. and the B.C.A.B. that the only way to determine if there was indeed ancestral remains on the property would be to rip the burial rocks right out of the ground. Which definitely won&#39;t happen. Sure theres some rock features, but as long as you don&#39;t touch them you won&#39;t get in trouble. 
+
+[[Cover the features with plywood. It&#39;ll protect them.-&gt;Beginning Construction.]]
+
+(if: (history:) contains &quot;Screw it, I&#39;ll work until the day I die.&quot;)[Wallet: $$$$](else:)[Wallet: $$$]</tw-passagedata>
+<tw-passagedata pid="29" name="Hire an impartial consultant that might actually explain the importance of your property to local indigenous peoples." tags="" position="351,1342">
+
+Emric EcLay offers his services as a consultant and shows you the property through the eyes of the local indigenous Besalish Colombusians. He explains the importance of not just the burial rocks, but the entire area as a whole for the worship of their ancestors. Any disturbance, not only to the burial rocks but to the area surrounding them as well, would not only sever the connections indigenous people have to those ancestors, but also sever the connections the spirits of the ancestors have to the mortal plane, dooming them to wander aimlessly forever.
+
+[[That sounds awful! You didn&#39;t realize until just then the ignorance you had been exhibiting. You decide to make things right and sell the property back to the state.-&gt;An ancestral burial ground is no place for a retirement home. You immediately agree to sell the property back to the state for the price you originally payed. That way the area can be protected from any future disturbance.]] Receive $$
+
+[[Ha! This chump? You demand proof of these ancestral spirits and return to planning your retirement house. You get a construction company to cover the rock features with plywood and cement. That&#39;ll protect them from disturbance.-&gt;Beginning Construction.]]
+
+(if: (history:) contains &quot;Screw it, I&#39;ll work until the day I die.&quot;)[Wallet: $$$$](else:)[Wallet: $$$]</tw-passagedata>
+<tw-passagedata pid="30" name="Beginning Construction." tags="" position="287,1513">
+
+(if: (history:) contains &quot;Hire an impartial consultant that might actually explain the importance of your property to local indigenous peoples.&quot;)[Wait, what? Plywood and cement? But that would totally cut off the ancestral spirits from their resting place!] (else:)[Wait, plywood and cement? Really?]
+
+[[What do you care right? It&#39;s not like it&#39;s actually a graveyard. Cover them up.]]
+
+[[No, you&#39;ve realized that&#39;s too much. You decide to sell the property back to the state afterall.-&gt;An ancestral burial ground is no place for a retirement home. You immediately agree to sell the property back to the state for the price you originally payed. That way the area can be protected from any future disturbance.]] Receive: $$ for the property + $ from the state to cover the cost of the investigation.
+
+(if: (history:) contains &quot;Screw it, I&#39;ll work until the day I die.&quot;)[Wallet: $$$$](else:)[Wallet: $$$]</tw-passagedata>
+<tw-passagedata pid="31" name="What do you care right? It&#39;s not like it&#39;s actually a graveyard. Cover them up." tags="" position="240,1655">
+
+But you&#39;re going to do this under the supervision of the attending archaeological consultant and permit holders, and abide by the perscribed buffer zone of at least two meters for each burial rock, right? 
+
+[[Did they say two meters? You could have sworn they said two centimeters. And you would hate to bother the other permit holder and consultants on such a nice day for such a simple thing.-&gt;Great. Just great.]]
+
+[[You put your hand to God, cross your heart and hope to die. With your fingers crossed behind your back.-&gt;Great. Just great.]]
+
+(if: (history:) contains &quot;Screw it, I&#39;ll work until the day I die.&quot;)[Wallet: $$$$](else:)[Wallet: $$$]</tw-passagedata>
+<tw-passagedata pid="32" name="Great. Just great." tags="" position="382,1826">
+
+Word has gotten around town that you&#39;ve covered the burial rocks and the local community has started to take notice. You better tread lightly or things could get a little complicated. Photos have begun to leak online of the cement and plywood coverings you&#39;ve used to &quot;protect&quot; the burial rocks. Local indigenous groups have started to organize peaceful protests in the waters nearby your future retirement home. The B.C.A.B. determines that the site needs to be revisited, and any disturbed areas need to be examined for any uncovered human remains. Your previous consultant has abandoned the project, and refuses to participate further by removing himself from the permit.
+
+[[Hire new consultants and have them examine the disturbed soil. Quickly. That central plywood covering would be a great base for a grand staircase.]]
+
+[[Sue the protestors. They&#39;re tresspassing and need to be put in their place.-&gt;Get off my lawn.]]
+
+[[Hire a reputable consultant firm that can help you find common ground with the local communities, and try to incorporate indigenous consultants to aid in the examination at a time when B.C.A.B. and R.A.S.P. representatives can be present.]] 
+
+(if: (history:) contains &quot;Screw it, I&#39;ll work until the day I die.&quot;)[Wallet: $$$$](else:)[Wallet: $$$]</tw-passagedata>
+<tw-passagedata pid="33" name="Hire new consultants and have them examine the disturbed soil. Quickly. That central plywood covering would be a great base for a grand staircase." tags="" position="493,1991">
+
+Your new consultant friends hastly examine some of the disturbed areas without supervision from the R.A.S.P. or B.C.A.B., and determine that no human remains were disinterred during your unpermitted alterations. You are fined a small amount for breach of permit, but your permit is not revoked and construction can continue under supervision. The government of Besalish Colombusia offers to buy the property back from you for more than your initial buying price plus the cost of the site examination.
+
+Lose $.
+
+[[Accept the government&#39;s offer.-&gt;Appologize and offer to sell the property back to the state. This has all been too much for you, and you just want to retire.]] Receive: $$$
+
+[[Hold out and continue construction slowly. Maybe you can make some real money out of these guys. After all, you are the one suffering in this situation.]]</tw-passagedata>
+<tw-passagedata pid="34" name="Get off my lawn." tags="" position="380,2141">
+
+The judge immediately throws out your lawsuit. The water surrounding your halted construction site is public property.
+
+[[Appologize and offer to sell the property back to the state. This has all been too much for you, and you just want to retire.]] Receive: $$.
+
+[[Reapply for alteration permit.]]</tw-passagedata>
+<tw-passagedata pid="35" name="Hire a reputable consultant firm that can help you find common ground with the local communities, and try to incorporate indigenous consultants to aid in the examination at a time when B.C.A.B. and R.A.S.P. representatives can be present." tags="" position="110,1795">
+
+Your new consultants thoroughly examine the disturbed soil and find numerous disinterred human remains. Local indigenous communities are rightfully outraged, and you have been heavily fined for breach of permit and had your permit for alteration revoked. Protestors now gather outside your property daily.
+
+Lose $$ and the ability to continue construction.
+
+[[Appologize and offer to sell the property back to the state. This has all been too much for you, and you just want to retire.]] Receive: $$.
+
+[[Try to make your money back by suing the protestors for tresspassing.-&gt;Get off my lawn.]]
+
+[[Reapply for alteration permit.]]
+
+(if: (history:) contains &quot;Screw it, I&#39;ll work until the day I die.&quot;)[Wallet: $$](else:)[Wallet: $]</tw-passagedata>
+<tw-passagedata pid="36" name="Appologize and offer to sell the property back to the state. This has all been too much for you, and you just want to retire." tags="" position="105,2214">You return to Cowberta and continue at to work at your headlight fluid company. You thought about staying and finding a new property to develop with (if: (history:) contains &quot;Hire new consultants and have them examine the disturbed soil. Quickly. That central plywood covering would be a great base for a grand staircase.&quot;)[your now overflowing wealth](else:)[what was left of your funds], but the locals have made it abundantly clear you are no longer welcome there. Back at your office, you hear hushed whispers about your failed plans on the coast, and see the judging eyes of your employees. You&#39;re too angry to (if: (history:) contains &quot;Hold out and continue construction slowly. Maybe you can make some real money out of these guys. After all, you are the one suffering in this situation.&quot;)[seek solace in the  mountain of money residing in your wallet.](else:)[think about your recent monetary losses.]
+
+[[Find someone to fire. They need to know you&#39;re still in charge.-&gt;Fire the first person that gets in your way as you travel to your elevator. They were being insubbordinate.]]
+
+Wallet: ????</tw-passagedata>
+<tw-passagedata pid="37" name="Reapply for alteration permit." tags="" position="231,2066">
+
+Due to the local controversy, community outrage, and history of breach of permit your application is denied.
+
+[[Appologize and offer to sell the property back to the state. This has all been too much for you, and you just want to retire.]] Receive $$.
+
+(if: (history:) contains &quot;Screw it, I&#39;ll work until the day I die.&quot;)[Wallet: $$](else:)[Wallet: $]</tw-passagedata>
+<tw-passagedata pid="38" name="Hold out and continue construction slowly. Maybe you can make some real money out of these guys. After all, you are the one suffering in this situation." tags="" position="507,2207">
+
+(if: (history:) contains &quot;Hold out and continue construction slowly. Maybe you can make some real money out of these guys. After all, you are the one suffering in this situation.&quot;)[You start to feel chills whenever you go to the construction site. You often feel a presence, then turn around to realize you are alone. You begin to wonder if the spirits you heard so much about really were upset with you. Again, the B.C. government offers and exuberant amount of money to end the ongoing controversy.](else:)[Protests become an constant part of your life. Between dodging reporters and increasingly angry protestors, you find that the coast was not offering the same relaxing retirement you thought it would. Once again, the B.C. government comes to offer you a way out, with enough money to buy property ten times the size of the island back in Cowberta.]
+
+[[Accept the offer. This is more than you ever could have hoped for, and the only thing you want to do is get out of your situation and back to Cowberta.-&gt;Appologize and offer to sell the property back to the state. This has all been too much for you, and you just want to retire.]] Receive: $$$$$$$$$$.
+
+(if: (history:) contains &quot;Hold out and continue construction slowly. Maybe you can make some real money out of these guys. After all, you are the one suffering in this situation.&quot;)[[[You can&#39;t handle being tormented by the living and the dead. Accept the offer-&gt;Appologize and offer to sell the property back to the state. This has all been too much for you, and you just want to retire.]] Receive: $$$$$$$$$$](else:)[[[You can endure it. Stay in Besalish Colombusia.-&gt;Hold out and continue construction slowly. Maybe you can make some real money out of these guys. After all, you are the one suffering in this situation.]]]
+</tw-passagedata>
+</tw-storydata>
+
+
